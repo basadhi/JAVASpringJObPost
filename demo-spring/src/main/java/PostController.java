@@ -11,7 +11,7 @@ public class PostController
 {
 
     //to unable swagger
-    @ApiIgnore
+
 
     @RequestMapping(value = "/")
     public void redirect(HttpServletResponse response) throws IOException {
